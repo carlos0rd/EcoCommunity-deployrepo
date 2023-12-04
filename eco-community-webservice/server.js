@@ -22,7 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //API router
 app.use("/api", apiRouter);
-const port = process.env.PORT;
 
 app.use((error, req, res, next) => {
     console.error(error);
