@@ -1,5 +1,6 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:3500/api";
+//const BASE_URL = "http://localhost:3500/api";
+const BASE_URL = "https://real-gray-buffalo-coat.cyclic.app/api";
 
 export const createUser = async (formData) => {
     try{
