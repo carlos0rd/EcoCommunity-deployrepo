@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #107345;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image1 {
+    flex: 1;
+    background-image: url('../../../images/logoVerde.png');
+    background-size: contain;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    height: 109px;
+    width: 283px;
+}
+.logo-link {
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.btns {
+    margin-right: 15px;
+}
+
+.container {
+    position: relative;
+    border: 6px solid #F2E7DC;
+    border-radius: 35px;
+    padding: 20px;
+    margin: 60px auto;
+    width: 50% !important;
+    max-width: 800px; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #F2E7DC;
+    text-align: center;
+}
+
+.elip1 {
+    position: absolute;
+    left: 0;
+    bottom: -105px;
+}
+
+.elip2 {
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.form-control {
+    text-align: left;
+    position: relative;
+}
+
+.form-control input,
+.form-control textarea {
+    border: 5px solid #F2E7DC;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F2E7DC;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.form-control textarea {
+    margin-bottom: 10px;
+}
+
+.form-control input::placeholder,
+.form-control textarea::placeholder {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-primary,
+.btns {
+    background-color: #107345;
+    color: #F2E7DC;
+    padding: 10px 20px;
+    border: 6px solid #F2E7DC;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btns:hover {
+    background-color: #F2E7DC;
+    color: #107345;
+}

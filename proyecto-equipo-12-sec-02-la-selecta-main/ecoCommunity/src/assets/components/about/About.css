@@ -1,0 +1,130 @@
+.contenedor {
+    display: flex;
+    height: 100vh; 
+}
+
+.about {
+    flex: 1;
+    background-color: #107345;
+    color: #ffffff;
+    padding: 20px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.texto-somos {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+}
+
+.texto-grande {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0; 
+}
+
+.lorem-ipsum {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0; 
+}
+
+.valores-mision {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mision,
+.valores {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.titulo-mision,
+.titulo-valores {
+    color: #05F26C;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lorem-ipsum-mision {
+    color: #F2E7DC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.lista-valores {
+    color: #F2E7DC;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-valores li{
+    margin-bottom: 5px;
+}
+
+.imagen {
+    flex: 1; 
+    background-image: url('../../../images/sideImg.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+}
+.logo-image2 {
+    flex: 1;
+    background-image: url('../../../images/logoVerde.png');
+    background-size: contain;
+    background-position: center;
+    height: 109px;
+    width: 283px;
+}
+.logo-link {
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.imagen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25); 
+}
+
+.imagen {
+    position: relative;
+}
+
+.buttons-container {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons {
+    background-color: transparent;
+    color: #F2E7DC;
+    padding: 10px 20px;
+    border: 6px solid #F2E7DC;
+    border-radius: 35px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
