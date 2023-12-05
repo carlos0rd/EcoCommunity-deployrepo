@@ -256,7 +256,7 @@ const Publicacion = (element) => {
           return(
                <article className="flex flex-col gap-4  max-w-xl pb-12 relative" >
               <div className="flex items-center gap-1"> 
-                <article><img src="../src/images/user.png" alt="https://i.ibb.co/5TVvL4M/user.png" className="object-contain h-14"/></article>
+                <article><img src="https://i.ibb.co/5TVvL4M/user.png" alt="user-icon" className="object-contain h-14"/></article>
                       <Link to={`/UserPage/${element.element.user._id}`}>
                           <button className="font-semibold">@{element.element.user.username}</button>
                         </Link>
