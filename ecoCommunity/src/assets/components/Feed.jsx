@@ -81,7 +81,7 @@ const Feed = () => {
                 
                 <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                     <article className="absolute left-8"> 
-                    <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                    <img src="../assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                     </article>
                     
                     
@@ -138,7 +138,7 @@ const Feed = () => {
                 
             <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                 <article className="absolute left-8"> 
-                <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                <img src="../assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                 </article>
                 
                 
