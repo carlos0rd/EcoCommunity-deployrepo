@@ -49,7 +49,7 @@ const UserFeed = () => {
                 
                 <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                     <article className="absolute left-8"> 
-                    <img src="src/images/Logo1.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                    <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                     </article>
                     
                 </div>
@@ -76,7 +76,7 @@ const UserFeed = () => {
                     <section className="w-1/4 flex justify-center items-center flex-col absolute right-0 top-60 gap-4 ">
     
                     <div className="flex justify-center items-center">
-                        <article><img src="src/images/user.png" alt="user-icon" className="object-contain h-20"/></article>
+                        <article><img src="https://i.ibb.co/5TVvL4M/user.png" alt="user-icon" className="object-contain h-20"/></article>
                        <div className="flex flex-col">
                             <h3 className="font-semibold text-green-400 text-xl">@{who.username}</h3>
                             <h3 className="text-xl">{who.email}</h3>
@@ -107,7 +107,7 @@ const UserFeed = () => {
                 
             <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                 <article className="absolute left-8"> 
-                <img src="src/images/Logo1.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                 </article>
                 
             </div>
@@ -131,7 +131,7 @@ const UserFeed = () => {
                 <section className="w-1/4 flex justify-center items-center flex-col absolute right-0 top-60 gap-4 ">
 
                 <div className="flex justify-center items-center">
-                    <article><img src="src/images/user.png" alt="user-icon" className="object-contain h-20"/></article>
+                    <article><img src="https://i.ibb.co/5TVvL4M/user.png" alt="user-icon" className="object-contain h-20"/></article>
                    <div className="flex flex-col">
                         <h3 className="font-semibold text-green-400 text-xl">@{who.username}</h3>
                         <h3 className="text-xl">{who.email}</h3>

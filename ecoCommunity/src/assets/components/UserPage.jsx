@@ -83,7 +83,7 @@ const UserPage = () => {
                 
                 <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                     <article className="absolute left-8"> 
-                    <img src="../src/images/Logo1.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                    <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                    
                     </article>
                     
@@ -120,7 +120,7 @@ const UserPage = () => {
                       
                         
                         <Link to={`/UserFeed`} className="">         
-                          <a href="" className="flex justify-center items-center"> <article><img src="../src/images/user.png" alt="user-icon" className="object-contain h-10 hover:h-12 hover:duration-300"/></article> @{who.username}</a>
+                          <a href="" className="flex justify-center items-center"> <article><img src="https://i.ibb.co/5TVvL4M/user.png" alt="user-icon" className="object-contain h-10 hover:h-12 hover:duration-300"/></article> @{who.username}</a>
                          </Link>
                        
                         <div className="flex flex-wrap gap-2 text-xs">
@@ -141,7 +141,7 @@ const UserPage = () => {
                 
             <div id="header" className=" h-1/4 flex justify-center items-center flex-row gap-4 p-12 relative">
                 <article className="absolute left-8"> 
-                <img src="../src/images/Logo1.png" alt="Eco-community" className="object-contain h-24 w-48" />
+                <img src="assets/Logo1-5d5331e3.png" alt="Eco-community" className="object-contain h-24 w-48" />
                 </article>
                 
                 
@@ -180,7 +180,7 @@ const UserPage = () => {
                     <button onClick={getFavorites} className="flex gap-1 hover:text-orange-400 hover:duration-300"><span className="material-symbols-outlined flex">bookmark</span>Favoritos</button>
                                       
                     <Link to={`/UserFeed`} className="">
-                    <a href="" className="flex justify-center items-center"> <article><img src="../src/images/user.png" alt="user-icon" className="object-contain h-10 hover:h-12 hover:duration-300"/></article> @{who.username}</a>
+                    <a href="" className="flex justify-center items-center"> <article><img src="https://i.ibb.co/5TVvL4M/user.png" alt="user-icon" className="object-contain h-10 hover:h-12 hover:duration-300"/></article> @{who.username}</a>
                      </Link>
                    
                     <div className="flex flex-wrap gap-2 text-xs">
